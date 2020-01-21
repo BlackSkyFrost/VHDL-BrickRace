@@ -1,0 +1,253 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 296 352)
+	(text "controlador" (rect 5 0 48 12)(font "Arial" ))
+	(text "inst" (rect 8 320 20 332)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "start" (rect 0 0 17 12)(font "Arial" ))
+		(text "start" (rect 21 27 38 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "reset" (rect 0 0 20 12)(font "Arial" ))
+		(text "reset" (rect 21 43 41 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "clock" (rect 0 0 20 12)(font "Arial" ))
+		(text "clock" (rect 21 59 41 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "izq" (rect 0 0 9 12)(font "Arial" ))
+		(text "izq" (rect 21 75 30 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "der" (rect 0 0 12 12)(font "Arial" ))
+		(text "der" (rect 21 91 33 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "jugar" (rect 0 0 18 12)(font "Arial" ))
+		(text "jugar" (rect 21 107 39 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "mejoresp" (rect 0 0 36 12)(font "Arial" ))
+		(text "mejoresp" (rect 21 123 57 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "s5" (rect 0 0 9 12)(font "Arial" ))
+		(text "s5" (rect 21 139 30 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "s180" (rect 0 0 17 12)(font "Arial" ))
+		(text "s180" (rect 21 155 38 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "suma_puntos" (rect 0 0 54 12)(font "Arial" ))
+		(text "suma_puntos" (rect 21 171 75 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "vida_menos" (rect 0 0 49 12)(font "Arial" ))
+		(text "vida_menos" (rect 21 187 70 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "mayor" (rect 0 0 27 12)(font "Arial" ))
+		(text "mayor" (rect 21 203 48 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "num_nivel[3..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "num_nivel[3..0]" (rect 21 219 82 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "pos_jugador[2..0]" (rect 0 0 68 12)(font "Arial" ))
+		(text "pos_jugador[2..0]" (rect 21 235 89 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 280 32)
+		(output)
+		(text "reset_address" (rect 0 0 57 12)(font "Arial" ))
+		(text "reset_address" (rect 202 27 259 39)(font "Arial" ))
+		(line (pt 280 32)(pt 264 32)(line_width 1))
+	)
+	(port
+		(pt 280 48)
+		(output)
+		(text "enable_address" (rect 0 0 62 12)(font "Arial" ))
+		(text "enable_address" (rect 197 43 259 55)(font "Arial" ))
+		(line (pt 280 48)(pt 264 48)(line_width 1))
+	)
+	(port
+		(pt 280 64)
+		(output)
+		(text "pos_inicial" (rect 0 0 38 12)(font "Arial" ))
+		(text "pos_inicial" (rect 221 59 259 71)(font "Arial" ))
+		(line (pt 280 64)(pt 264 64)(line_width 1))
+	)
+	(port
+		(pt 280 80)
+		(output)
+		(text "enable_pos" (rect 0 0 44 12)(font "Arial" ))
+		(text "enable_pos" (rect 215 75 259 87)(font "Arial" ))
+		(line (pt 280 80)(pt 264 80)(line_width 1))
+	)
+	(port
+		(pt 280 96)
+		(output)
+		(text "enable_der" (rect 0 0 43 12)(font "Arial" ))
+		(text "enable_der" (rect 216 91 259 103)(font "Arial" ))
+		(line (pt 280 96)(pt 264 96)(line_width 1))
+	)
+	(port
+		(pt 280 112)
+		(output)
+		(text "enable_izq" (rect 0 0 40 12)(font "Arial" ))
+		(text "enable_izq" (rect 219 107 259 119)(font "Arial" ))
+		(line (pt 280 112)(pt 264 112)(line_width 1))
+	)
+	(port
+		(pt 280 128)
+		(output)
+		(text "enable_puntos" (rect 0 0 56 12)(font "Arial" ))
+		(text "enable_puntos" (rect 203 123 259 135)(font "Arial" ))
+		(line (pt 280 128)(pt 264 128)(line_width 1))
+	)
+	(port
+		(pt 280 144)
+		(output)
+		(text "reset_puntos" (rect 0 0 51 12)(font "Arial" ))
+		(text "reset_puntos" (rect 208 139 259 151)(font "Arial" ))
+		(line (pt 280 144)(pt 264 144)(line_width 1))
+	)
+	(port
+		(pt 280 160)
+		(output)
+		(text "reset_cnt_s5" (rect 0 0 53 12)(font "Arial" ))
+		(text "reset_cnt_s5" (rect 206 155 259 167)(font "Arial" ))
+		(line (pt 280 160)(pt 264 160)(line_width 1))
+	)
+	(port
+		(pt 280 176)
+		(output)
+		(text "reset_cnt_180_seg" (rect 0 0 76 12)(font "Arial" ))
+		(text "reset_cnt_180_seg" (rect 183 171 259 183)(font "Arial" ))
+		(line (pt 280 176)(pt 264 176)(line_width 1))
+	)
+	(port
+		(pt 280 192)
+		(output)
+		(text "resetivel" (rect 0 0 33 12)(font "Arial" ))
+		(text "resetivel" (rect 226 187 259 199)(font "Arial" ))
+		(line (pt 280 192)(pt 264 192)(line_width 1))
+	)
+	(port
+		(pt 280 208)
+		(output)
+		(text "enable_nivel" (rect 0 0 48 12)(font "Arial" ))
+		(text "enable_nivel" (rect 211 203 259 215)(font "Arial" ))
+		(line (pt 280 208)(pt 264 208)(line_width 1))
+	)
+	(port
+		(pt 280 224)
+		(output)
+		(text "enable_mejor_puntuacion" (rect 0 0 100 12)(font "Arial" ))
+		(text "enable_mejor_puntuacion" (rect 159 219 259 231)(font "Arial" ))
+		(line (pt 280 224)(pt 264 224)(line_width 1))
+	)
+	(port
+		(pt 280 240)
+		(output)
+		(text "enable_guardar_puntuacion" (rect 0 0 108 12)(font "Arial" ))
+		(text "enable_guardar_puntuacion" (rect 151 235 259 247)(font "Arial" ))
+		(line (pt 280 240)(pt 264 240)(line_width 1))
+	)
+	(port
+		(pt 280 256)
+		(output)
+		(text "reset_cnt_mejoresp" (rect 0 0 80 12)(font "Arial" ))
+		(text "reset_cnt_mejoresp" (rect 179 251 259 263)(font "Arial" ))
+		(line (pt 280 256)(pt 264 256)(line_width 1))
+	)
+	(port
+		(pt 280 272)
+		(output)
+		(text "estados[5..0]" (rect 0 0 50 12)(font "Arial" ))
+		(text "estados[5..0]" (rect 209 267 259 279)(font "Arial" ))
+		(line (pt 280 272)(pt 264 272)(line_width 3))
+	)
+	(port
+		(pt 280 288)
+		(output)
+		(text "sel_displays" (rect 0 0 48 12)(font "Arial" ))
+		(text "sel_displays" (rect 211 283 259 295)(font "Arial" ))
+		(line (pt 280 288)(pt 264 288)(line_width 1))
+	)
+	(port
+		(pt 280 304)
+		(output)
+		(text "resetaf" (rect 0 0 28 12)(font "Arial" ))
+		(text "resetaf" (rect 231 299 259 311)(font "Arial" ))
+		(line (pt 280 304)(pt 264 304)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 264 320)(line_width 1))
+	)
+)
